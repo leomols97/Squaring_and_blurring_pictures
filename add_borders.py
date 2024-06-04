@@ -100,6 +100,6 @@ def process_images_in_folder(input_folder, output_folder, blur_radius=20):
             add_blurred_borders(image_path, output_path, blur_radius)
 
 # Example usage
-input_folder = '/Users/leopoldmols/Desktop/Programmes/Mise en carré photo pr Instagram/Photos à traiter'
-output_folder = '/Users/leopoldmols/Desktop/Programmes/Mise en carré photo pr Instagram/Photos traitées'
+input_folder = './Photos à traiter'
+output_folder = './Photos traitées'
 process_images_in_folder(input_folder, output_folder, blur_radius=80)  # Adjust the blur radius as needed
